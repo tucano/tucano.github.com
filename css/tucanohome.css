@@ -1,0 +1,239 @@
+/* HOME TUCANO CSS */
+body
+{
+	Background: #EAE9E9;
+	color: #A7A7A6;
+	font-family: "Monaco", "Courier", monospace;
+	font-size: 12px;
+}
+
+/* CONTAINER */
+div#container
+{
+	margin: 0px auto 0px auto;
+}
+
+/* CONTENT */
+div#content
+{
+	margin: 10px auto 10px auto;
+}
+
+/* TITLEBOX */
+div#titlebox
+{
+	margin: 10px auto 10px auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+h1.title
+{
+	color: #666;
+	font-size: 22px;
+}
+
+h3.title
+{
+	font-size: 12px;
+	color: #A7A7A6;
+}
+
+p.title
+{
+	color: #666;
+	line-height: 1.8em;
+}
+
+a.title, a.title:visited
+{
+	color: #000;
+}
+
+#titlebox a 
+{
+	color: #000;
+	line-height: 2em;
+}
+
+/* TEXTAREA */
+div#textarea
+{
+	margin: 20px auto auto auto;
+	color: #666;
+}
+
+
+/* LINKS TABLE */
+table#links
+{
+	margin: 30px auto auto auto;
+	width: 580px;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+
+#links th
+{
+	padding: 8px 2px;
+	font-weight: normal;
+	font-size: 14px;
+	border-bottom: 2px solid #A7A7A6;
+	border-right: 30px solid #EAE9E9;
+	border-left: 30px solid #EAE9E9;
+	color: #666;
+}
+
+#links td
+{
+	padding: 12px 2px 0px 2px;
+	border-right: 30px solid #EAE9E9;
+	border-left: 30px solid #EAE9E9;
+	color: #666;
+	text-align: center;
+}
+
+#links a, a:visited
+{
+	color: #000;
+}
+
+/* PROJECTS TITLE */
+table#projtitle
+{
+	color: #666;
+	font-size: 22px;
+}
+
+/* PROJECTS TABLE*/
+#project-table
+{
+	font-family: "Verdana", "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 50px auto 20px auto;
+	text-align: left;
+	border-collapse: collapse;
+	background-image: url('../img/blurry.jpg');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	width: 900px;
+}
+#project-table td
+{
+	padding: 9px 12px;
+	color: #666;
+	border-top: 1px solid #fff;
+}
+#project-table tbody td
+{
+	background: url('../img/back.png');
+}
+* html #project-table tbody td
+{
+	/* 
+	   ----------------------------
+		PUT THIS ON IE6 ONLY STYLE 
+		AS THE RULE INVALIDATES
+		YOUR STYLESHEET
+	   ----------------------------
+	*/
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/back.png',sizingMethod='crop');
+	background: none;
+}	
+#project-table tbody tr:hover td
+{
+	color: #000;
+	background: none;
+}
+#project-table .names
+{
+	font-size: 20px;
+	padding: 5px;
+	color: #000;
+}
+#project-table .descs
+{
+	font-size: 12px;
+	padding: 10px;
+	color: #000;
+}
+#project-table .images { padding: 15px 35px 15px 35px; }
+
+
+
+/* HOME */
+div#home
+{
+	clear: both;
+	margin: 40px auto 90px auto;
+	text-align: center;
+	vertical-align: middle;
+	color: #666;
+}
+
+/* Home button */
+a.home
+{
+	font-size: 18px;
+	color: #666;
+	font-family: Verdana;
+	text-decoration: none;
+	background-color: #EAE9E9;
+	padding: 20px 100px 20px 100px;
+	border-width: 1px 2px 2px 1px;
+	border-color: #CCC;
+	border-style: solid;
+}
+
+a.home:visited
+{
+	color: #666
+}
+
+a.home:hover
+{
+	color: #000;
+	background-color: #CCC;
+	border-width: 1px 2px 2px 1px;
+	border-color: #000;
+	border-style: solid;
+}
+
+/* ASCIIBOX */
+div#asciibox
+{
+	width: 500px;
+	margin: 100px auto 50px auto;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+/* APPLET */
+div#SimpleNetworkVisualizer_container
+{
+	width: 800px;
+	height: 600px;
+	margin: auto;
+}
+
+/* FLASH FIBONACCI */
+div#fibonacci
+{
+	margin: auto;
+	text-align: center;
+	width: 620px;
+}
+
+/* MOMIX */
+div#momix
+{
+	margin: auto;
+	background-image: url('../img/dubai.png');
+	background-repeat: no-repeat;
+	color: #FFF;
+	font-size: 10px;
+	padding: 20px;
+	width: 600px;
+	height: 440px;
+	border: 1px #000 solid;
+}
